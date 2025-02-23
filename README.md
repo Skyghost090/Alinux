@@ -4,6 +4,7 @@
 
 ## Installation
 
+And please before install termux-x11 and termux-x11 packages
 To install **Alinux**, simply run:
 
 ```sh
