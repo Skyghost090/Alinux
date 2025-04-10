@@ -1,45 +1,72 @@
-# Alinux
+# 🐧 Alinux – Run Linux Apps Easily in Termux
 
-**Alinux** is a script designed to quickly open Linux applications in Termux. It simplifies the process of installing packages and managing a Linux environment within Termux.
-
-## Installation
-
-And please before install termux-x11 and termux-x11 packages
-To install **Alinux**, simply run:
-
-```sh
-./install.sh
-```
-
-## Usage
-
-- To start **Alinux**, run:
-  ```sh
-  ./alinux
-  ```
-- To install a package using `apt`, run:
-  ```sh
-  ./alinux -i <package-name>
-  ```
-
-## Uninstallation
-
-To remove **Alinux**, execute:
-
-```sh
-proot-distro remove ubuntu
-```
-
-## Notes
-
-- Ensure that **Termux** is properly installed and updated before using **Alinux**.
-- Requires **proot-distro** to function correctly.
-
-## License
-
-This project is open-source. Feel free to modify and distribute it as needed.
+**Alinux** is a simple yet powerful script that helps you **launch and manage Linux applications** in **Termux** with ease. It streamlines package installation and Linux environment management directly from your Android device. 🚀
 
 ---
 
-Enjoy using **Alinux**!
+## 📦 Prerequisites
 
+Before installing **Alinux**, make sure you have:
+
+- ✅ [**Termux**](https://f-droid.org/packages/com.termux/) installed and updated  
+- ✅ `proot-distro` package installed in Termux  
+- ✅ **termux-x11** and **termux-x11-packages** installed for GUI support
+
+---
+
+## 🛠️ Installation
+
+To install **Alinux**, just run:
+
+```bash
+./install.sh
+```
+
+> 📌 Tip: You may need to give executable permission first:
+```bash
+chmod +x install.sh
+```
+
+---
+
+## ⚙️ Usage
+
+- ▶️ **Start Alinux:**
+  ```bash
+  ./alinux
+  ```
+
+- 📥 **Install a package using `apt`:**
+  ```bash
+  ./alinux -i <package-name>
+  ```
+
+---
+
+## 🧹 Uninstallation
+
+To completely remove the Alinux environment:
+
+```bash
+proot-distro remove ubuntu
+```
+
+---
+
+## 📝 Notes
+
+- 📲 Make sure Termux is **up-to-date** and has **storage permissions** enabled.  
+- 🧰 Alinux uses `proot-distro` to run a lightweight Ubuntu system inside Termux.  
+- 🖼️ To run graphical apps, ensure **termux-x11** is properly configured.
+
+---
+
+## 🪪 License
+
+This project is **open source** – feel free to modify, improve, and share it!
+
+---
+
+## 🎉 Enjoy Alinux!
+
+Use real Linux tools, install your favorite apps, and turn your Android into a mini Linux workstation with just a few taps. Happy hacking! 👨‍💻🐧📱
